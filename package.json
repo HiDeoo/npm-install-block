@@ -6,18 +6,32 @@
   "author": "HiDeoo <github@hideoo.dev> (https://hideoo.dev)",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test implemented.\" && exit 1",
+    "dev": "blocks start",
+    "build": "blocks build",
     "lint": "prettier -c --cache . && eslint . --cache --max-warnings=0 && tsc --noEmit",
     "prepare": "husky install"
+  },
+  "dependencies": {
+    "@githubnext/blocks": "2.3.5",
+    "@primer/octicons-react": "17.12.0",
+    "@primer/react": "35.19.0",
+    "@radix-ui/react-tabs": "1.0.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-error-boundary": "3.1.4",
+    "react-is": "18.2.0",
+    "styled-components": "5.3.6"
   },
   "devDependencies": {
     "@hideoo/eslint-config": "1.1.0",
     "@hideoo/prettier-config": "1.0.1",
     "@hideoo/tsconfig": "1.0.0",
+    "@types/react": "18.0.28",
     "eslint": "8.34.0",
     "husky": "8.0.3",
     "lint-staged": "13.1.2",
     "prettier": "2.8.4",
+    "type-fest": "3.6.0",
     "typescript": "4.9.5"
   },
   "engines": {

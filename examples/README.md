@@ -9,4 +9,5 @@ This is a simple example of the npm install GitHub Block embedded in Markdown. Y
 <BlockComponent
 block={{"owner":"hideoo","repo":"npm-install-block","id":"npm-install-block","type":"file"}}
 context={{"owner":"hideoo","repo":"npm-install-block","path":"examples/package.json","sha":"HEAD","file":"examples/README.md"}}
+height={94}
 />

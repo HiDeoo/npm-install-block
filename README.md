@@ -15,7 +15,7 @@
 
 ## Features
 
-A [GitHub Block](https://blocks.githubnext.com) to embed the command to install npm packages using multiple package managers in Markdown files based on the name from a `package.json` file.
+A [GitHub Block](https://blocks.githubnext.com) to embed the command to install npm packages using multiple package managers in Markdown files based on the `name` field from a `package.json` file.
 
 The following package managers are supported:
 

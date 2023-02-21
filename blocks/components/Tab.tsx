@@ -9,6 +9,7 @@ export const Tab = forwardRef<HTMLButtonElement, TabProps>(function Tab({ childr
         bg: 'transparent',
         border: 1,
         borderBottom: 0,
+        borderTop: 0,
         borderColor: 'transparent',
         borderRadius: 0,
         borderStyle: 'solid',
@@ -17,15 +18,15 @@ export const Tab = forwardRef<HTMLButtonElement, TabProps>(function Tab({ childr
         fontWeight: 'normal',
         lineHeight: '20px',
         padding: '8px 12px',
+        '&:first-child': {
+          borderLeft: 0,
+        },
         '&:hover:not(:disabled)': {
           bg: 'transparent',
         },
         '&[data-state="active"],&[data-state="active"]:hover': {
           bg: 'canvas.subtle',
-          borderColor: 'border.default',
-          borderTopLeftRadius: 2,
-          borderTopRightRadius: 2,
-          borderBottomColor: 'red',
+          borderColor: 'border.muted',
         },
       }}
       {...props}

@@ -1,0 +1,11 @@
+[
+  {
+    "type": "file",
+    "id": "npm-install-block",
+    "title": "Install npm package",
+    "description": "Display commands to install npm packages using multiple package managers.",
+    "entry": "blocks/App.tsx",
+    "matches": ["**/package.json"],
+    "example_path": "https://github.com/HiDeoo/npm-install-block/blob/main/examples/README.md"
+  }
+]

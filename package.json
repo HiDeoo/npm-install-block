@@ -2,7 +2,7 @@
   "name": "npm-install-block",
   "version": "0.0.3",
   "license": "MIT",
-  "description": "GitHub Block to display commands to install npm packages using multiple package managers.",
+  "description": "GitHub Block to display commands to install npm packages using multiple package managers in Markdown files in GitHub.",
   "author": "HiDeoo <github@hideoo.dev> (https://hideoo.dev)",
   "type": "module",
   "scripts": {

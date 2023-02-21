@@ -51,7 +51,7 @@ It is currently not possible to customize the options, e.g. indicating that the 
 
 - [Embedded in a README file.](https://blocks.githubnext.com/HiDeoo/npm-install-block/blob/main/examples/README.md)
 
-![Embedded in a README file.](https://user-images.githubusercontent.com/494699/219106150-2e27a48c-3012-47bb-8260-64918aec6af2.png)
+![Embedded in a README file.](https://user-images.githubusercontent.com/494699/220434780-86f4551d-2ccb-4b6f-b044-6d96dce09abb.png)
 
 ## License
 

@@ -27,7 +27,7 @@ The following package managers are supported:
 
 > **Warning**
 >
-> GitHub Blocks is currently an experimental technical preview. It is not available to all GitHub users and may change at any time.
+> GitHub Blocks is currently an experimental technical preview and may change at any time.
 
 ## Planned Features
 
@@ -44,10 +44,6 @@ GitHub Blocks is still in **early development** and same goes for this GitHub Bl
 It is currently not possible to customize the options, e.g. indicating that the package should be installed as a development dependency, of the GitHub Block directly from Markdown but some sort of "instance" state allowing this kind of customization is on the roadmap.
 
 ## Example
-
-> **Note**
->
-> The example below requires a GitHub account with access to the GitHub Blocks technical preview. A screenshot is provided as an alternative.
 
 - [Embedded in a README file.](https://blocks.githubnext.com/HiDeoo/npm-install-block/blob/main/examples/README.md)
 
